@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego del destino</title>
+</head>
+
+<body>
+    <h2>Descubre tu futuro</h2>
+    <form action="/enviar" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <br>
+        <label for="numero">Numero:</label>
+        <input type="number" id="numero" name="numero" required>
+        <br>
+        <label for="lugar">Lugar:</label>
+        <input type="text" id="lugar" name="lugar" required>
+        <br>
+        <label for="comida">Comida preferida:</label>
+        <input type="text" id="comida" name="comida" required>
+        <br>
+        <label for="profesion">Profesion:</label>
+        <select name="profesion" id="profesion">
+            <option value="programador">Programador</option>
+            <option value="diseñador">Diseñador</option>
+            <option value="cocinero">Cocinero</option>
+            <option value="astronauta">Astronauta</option>
+        </select>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+
+</html>
